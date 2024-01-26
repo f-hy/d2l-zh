@@ -144,7 +144,7 @@ $$ \frac{1}{L^\alpha} \log P(y_1, \ldots, y_{L}\mid \mathbf{c}) = \frac{1}{L^\al
 $\alpha$通常设置为$0.75$。
 因为一个较长的序列在 :eqref:`eq_beam-search-score`
 的求和中会有更多的对数项，
-因此分母中的$L^\alpha$用于惩罚长序列。
+因此分母中的$L^\alpha$用于惩罚短序列。
 
 束搜索的计算量为$\mathcal{O}(k\left|\mathcal{Y}\right|T')$，
 这个结果介于贪心搜索和穷举搜索之间。
